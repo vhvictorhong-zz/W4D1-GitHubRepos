@@ -15,6 +15,7 @@
 		2B1087101DE3632600652D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B10870E1DE3632600652D19 /* LaunchScreen.storyboard */; };
 		2B10871B1DE3632600652D19 /* GithubReposTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B10871A1DE3632600652D19 /* GithubReposTests.m */; };
 		2B1087261DE3632600652D19 /* GithubReposUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1087251DE3632600652D19 /* GithubReposUITests.m */; };
+		2B1087351DE36B2600652D19 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1087341DE36B2600652D19 /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2B1087211DE3632600652D19 /* GithubReposUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubReposUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1087251DE3632600652D19 /* GithubReposUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubReposUITests.m; sourceTree = "<group>"; };
 		2B1087271DE3632600652D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1087331DE36B2600652D19 /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		2B1087341DE36B2600652D19 /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2B1087041DE3632600652D19 /* AppDelegate.m */,
 				2B1087061DE3632600652D19 /* ViewController.h */,
 				2B1087071DE3632600652D19 /* ViewController.m */,
+				2B1087331DE36B2600652D19 /* Repo.h */,
+				2B1087341DE36B2600652D19 /* Repo.m */,
 				2B1087091DE3632600652D19 /* Main.storyboard */,
 				2B10870C1DE3632600652D19 /* Assets.xcassets */,
 				2B10870E1DE3632600652D19 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				2B1087081DE3632600652D19 /* ViewController.m in Sources */,
 				2B1087051DE3632600652D19 /* AppDelegate.m in Sources */,
 				2B1087021DE3632600652D19 /* main.m in Sources */,
+				2B1087351DE36B2600652D19 /* Repo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
